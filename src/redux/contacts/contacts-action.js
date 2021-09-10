@@ -25,9 +25,6 @@ const deleteContact = createAction("contacts/Delete");
 
 const changeFilter = createAction("contacts/changeFilter");
 
-// const actions = { addContact, deleteContact, changeFilter };
-
-// const fetchContactsSuccess = createAction("contacts/getContacts");
 const fetchContactsStart = createAction("contacts/loading");
 const fetchContactsFinished = createAction("contacts/finished");
 const fetchContactsError = createAction("contacts/error");
