@@ -8,9 +8,9 @@ const InitialState = {
   error: "",
 };
 const contactItems = createReducer(InitialState, {
-  [actions.getContacts]: (state, payload) => ({
+  [actions.getContacts]: (state, { payload }) => ({
     ...state,
-    items: [...state.items, payload],
+    items: [...payload],
   }),
   [actions.addContact]: (state, { payload }) => ({
     ...state,

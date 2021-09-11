@@ -7,7 +7,6 @@ export const getContactsOperation = () => async (dispatch) => {
   dispatch(actions.fetchContactsStart());
   try {
     const { data } = await axios.get("/contacts");
-    console.log(data);
     dispatch(actions.getContacts(data));
   } catch (error) {
     dispatch(actions.fetchContactsError(error));

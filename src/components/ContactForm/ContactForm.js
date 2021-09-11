@@ -30,6 +30,7 @@ const ContactForm = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    console.log("form getContacts", contacts);
 
     const contactCheck = contacts.find(
       (contact) => contact.name.toLowerCase() === name.toLowerCase()
