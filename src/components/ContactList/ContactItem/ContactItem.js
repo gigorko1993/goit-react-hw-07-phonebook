@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getLoader } from "../../../redux/contacts/contacts-selectors";
+import {
+  getLoader,
+  getFiltredContacts,
+} from "../../../redux/contacts/contacts-selectors";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-
-import { getFiltredContacts } from "../../../redux/contacts/contacts-selectors";
 
 import {
   deleteContactsOperation,
