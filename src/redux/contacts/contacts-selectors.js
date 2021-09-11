@@ -10,5 +10,4 @@ export const getFiltredContacts = (state) => {
   return filteredContacts;
 };
 
-export const getError = (state) => state.contacts.contactItems.error;
 export const getLoader = (state) => state.contacts.contactItems.loader;

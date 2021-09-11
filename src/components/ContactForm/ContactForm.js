@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-// import actions from "../../redux/contacts/contacts-action";
+
 import { postContactsOperation } from "../../redux/contacts/contacts-operation";
 import { getContacts } from "../../redux/contacts/contacts-selectors";
 import s from "./ContactForm.module.css";
@@ -10,6 +10,7 @@ const ContactForm = () => {
   const [number, setNumber] = useState("");
 
   const contacts = useSelector(getContacts);
+
   const dispatch = useDispatch();
 
   const onChange = (e) => {
