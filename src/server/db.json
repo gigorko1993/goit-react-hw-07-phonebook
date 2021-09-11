@@ -1,39 +1,14 @@
 {
   "contacts": [
     {
-      "name": "fdbvdf",
-      "number": "+380976196131",
-      "id": 1
-    },
-    {
-      "name": "vfd",
-      "number": "+380976196131",
-      "id": 2
-    },
-    {
-      "name": "fdbvdf",
-      "number": "+380976196131",
-      "id": 3
-    },
-    {
       "name": "vdvd",
-      "number": "+380976196131",
-      "id": 4
+      "number": "+3904343",
+      "id": 2
     },
     {
       "name": "car",
       "number": "+380976196131",
-      "id": 5
-    },
-    {
-      "name": "d",
-      "number": "+3904343",
-      "id": 6
-    },
-    {
-      "name": "fdbvdfdssfd",
-      "number": "+380976196131",
-      "id": 7
+      "id": 3
     }
   ]
 }

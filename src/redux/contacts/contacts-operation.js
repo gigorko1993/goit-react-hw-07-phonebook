@@ -28,9 +28,10 @@ export const postContactsOperation = (contact) => async (dispatch) => {
 };
 
 export const deleteContactsOperation = (id) => async (dispatch) => {
+  const contactId = id.toString();
   dispatch(actions.fetchContactsStart());
   try {
-    await axios.delete(`/contacts/${id}`);
+    await axios.delete(`/contacts/${contactId}`);
     dispatch(actions.deleteContact(id));
   } catch (error) {
     dispatch(actions.fetchContactsError(error));
